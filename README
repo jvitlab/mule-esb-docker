@@ -1,0 +1,6 @@
+# Build an image
+docker build -t "mule-esb-docker" .
+
+# Loging to Dockerhub
+
+# Push the built image
