@@ -43,7 +43,7 @@ RUN mkdir -p /opt && \
 WORKDIR ${MULE_HOME}
 
 # Start Mule ESB.
-CMD [ "/opt/mule/bin/mule" ]
+CMD [ "/opt/mule-standalone/bin/mule" ]
 
 # Define mount points.
 VOLUME ["${MULE_HOME}/logs", "${MULE_HOME}/conf", "${MULE_HOME}/apps", "${MULE_HOME}/domains"]
