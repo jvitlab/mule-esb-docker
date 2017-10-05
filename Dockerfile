@@ -39,7 +39,7 @@ RUN mkdir -p /opt && \
 # Deploy APP
     cp ${APP_NAME} $MULE_HOME/apps && \
     rm  ${APP_NAME}
-
+##[PLACE_HOLDER_APP_DEPLOYMENT]##
 WORKDIR ${MULE_HOME}
 
 # Start Mule ESB.
